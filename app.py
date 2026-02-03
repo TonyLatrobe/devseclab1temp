@@ -1,6 +1,5 @@
-def say_hello(name: str, excited: bool = False) -> str:
-    greeting = f"Hello {name}"
-    return greeting + "!" if excited else greeting
+from modules.hello_utils.formatter import format_name
 
-if __name__ == "__main__":
-    print(say_hello("Alice", excited=True))
+def say_hello(name: str) -> str:
+    clean = format_name(name)
+    return f"Hello {clean}"
