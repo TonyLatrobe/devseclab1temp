@@ -1,3 +1,6 @@
 [submodule "modules/hello-utils"]
 	path = modules/hello-utils
 	url = https://github.com/TonyLatrobe/hello-utilstemp.git
+[submodule "modules/hello_utils"]
+	path = modules/hello_utils
+	url = https://github.com/TonyLatrobe/hello-utilstemp.git
